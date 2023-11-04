@@ -12,7 +12,11 @@
   margin-top: 140px;
   border-radius: 20px;
   width: 410px;
-  background-color: rgba(72, 72, 231, 0.881);
+  background: hsla(187, 83%, 65%, 1);
+  background: linear-gradient(90deg, hsla(187, 83%, 65%, 1) 0%, hsla(301, 84%, 81%, 1) 50%, hsla(347, 75%, 61%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(187, 83%, 65%, 1) 0%, hsla(301, 84%, 81%, 1) 50%, hsla(347, 75%, 61%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(187, 83%, 65%, 1) 0%, hsla(301, 84%, 81%, 1) 50%, hsla(347, 75%, 61%, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5de0f0", endColorstr="#f7a6f5", GradientType=1);
   height: 550px;
 }
 .card1 {
