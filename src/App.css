@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+/* .custom-border {
+  border-bottom: 2px solid rgb(1, 0, 0);
+
+  /* You can change 'red' to any color you prefer 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item:hover {
+  background-color: rgb(79, 195, 189);
+  /* Change this color to your preference 
+}*/
+.container {
+  margin-top: 140px;
+  border-radius: 20px;
+  width: 410px;
+  background-color: rgba(72, 72, 231, 0.881);
+  height: 550px;
+}
+.card1 {
+  width: 370px;
+  border-radius: 15px;
+  height: 350px;
+  margin-left: 8px;
+}
+.vish {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 15%;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.class1 {
+
+  width: 200px;
+  margin-left: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.class2 {
+
+  margin-left: 80px;
   color: white;
-}
+  margin-right: 170px;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
