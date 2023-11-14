@@ -1,24 +1,12 @@
 import React from "react";
-// import HoriNav from './component/Horinav';
-// import Navbar from './component/Navbar';
-import Qrscanner from "./component/Qrscanner";
- // Import the Navbar component
+import Signup from "./component/Signup";
+
 
 function App() {
   return (
-    // <>
-    //   <div className="App">
-    //     <HoriNav />
-    //   </div>
-    //   <div>
-    //     <Navbar /> {/* Render the Navbar component */}
-    //   </div>
-    // </>
-    <>
-     <div>
-      <Qrscanner/>
-     </div>
-    </>
+    <div >
+      <Signup/>
+    </div>
   );
 }
 export default App
